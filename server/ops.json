@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "b7fd111a-73ea-3681-a2bd-a057ee5898ba",
+    "name": "Pigpigman",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

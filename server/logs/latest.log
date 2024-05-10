@@ -230,3 +230,59 @@
 
 [12:22:27] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[12:27:35] [Thread-8/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[12:27:36] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:43970] logged in with entity id 1380 at ([world]458.5, 68.0, -213.5)
+[12:30:43] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[12:30:43] [Server thread/INFO]: Pigpigman left the game.
+[12:34:33] [Server thread/INFO]: Opped Pigpigman
+[12:39:09] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:39:11] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+
+[12:39:11] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+
+[12:39:11] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+
+[12:54:18] [Thread-9/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[12:54:18] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:36390] logged in with entity id 1793 at ([world]473.66949107140135, 74.0, -221.17717739878853)
+[12:54:25] [Server thread/INFO]: Pigpigman issued server command: /mage54**
+[12:59:58] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[12:59:58] [Server thread/INFO]: Pigpigman left the game.
