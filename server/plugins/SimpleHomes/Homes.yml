@@ -54,6 +54,11 @@ CookedPork64_:
     X: 630.5972082678559
     Y: 22.0
     Z: -241.77209552490962
+  CookedPork64_2:
+    world: world
+    X: 529.4736787100636
+    Y: 63.875
+    Z: -399.30412278486057
 squidy_boii:
   main:
     world: world
