@@ -4,16 +4,26 @@ Arson_IsFun:
     X: 511.3000000119211
     Y: 65.0
     Z: -139.0479630527554
-  '1':
-    world: world
-    X: 616.8754863372924
-    Y: 66.0
-    Z: -369.83812902823223
   jason:
     world: world
     X: 549.619899393043
     Y: 68.0
     Z: -306.92141376294563
+  mine:
+    world: world
+    X: 670.3164120614058
+    Y: 11.0
+    Z: -218.73424682235137
+  end:
+    world: world_the_end
+    X: -11.863923378839727
+    Y: 63.0
+    Z: -22.90618651071857
+  nether:
+    world: world_nether
+    X: 90.87136952834595
+    Y: 32.0
+    Z: -10.404578041142956
 meepcat2022:
   meepcat2022:
     world: world
@@ -31,11 +41,6 @@ HydraBlaz3_TOPG1:
     X: 665.799727916952
     Y: 63.0
     Z: -229.29005217334165
-  '11':
-    world: world
-    X: 631.7400349107378
-    Y: 11.0
-    Z: -205.69999998807907
   endportal:
     world: world
     X: 587.3322283466969
@@ -46,6 +51,11 @@ HydraBlaz3_TOPG1:
     X: 607.0901236541168
     Y: 11.0
     Z: -245.19664817309175
+  end:
+    world: world_the_end
+    X: -44.663917508888694
+    Y: 85.0
+    Z: -77.54769896507372
 IWillThugShakeU:
   ba:
     world: world
@@ -63,6 +73,16 @@ France_is_better:
     X: 665.4911263235985
     Y: 63.0
     Z: -229.665894818522
+  stronghold:
+    world: world
+    X: 599.0394354765396
+    Y: 21.0
+    Z: -245.7252467425936
+  end:
+    world: world_the_end
+    X: 93.06036811319831
+    Y: 57.0
+    Z: 1.5096011524429873
 CookedPork64_:
   CookedPork64_:
     world: world
@@ -86,3 +106,35 @@ PancakeMan:
     X: 704.8622818893979
     Y: 61.0
     Z: -106.30664602319955
+  base:
+    world: world_nether
+    X: 91.93983848032887
+    Y: 32.0
+    Z: -9.680933483747397
+  enemy:
+    world: world
+    X: 565.2002208261658
+    Y: 63.0
+    Z: -363.8615492590262
+Overlord1:
+  top:
+    world: world
+    X: 414.34074186018387
+    Y: 64.0
+    Z: -274.4802886542946
+  home:
+    world: world
+    X: 428.69999998807907
+    Y: 10.0
+    Z: -273.69999998807907
+ponyboy_curry:
+  hydra:
+    world: world
+    X: 608.4303733273096
+    Y: 11.0
+    Z: -255.64401597525085
+  mine:
+    world: world
+    X: 474.5585304552952
+    Y: 44.0
+    Z: -142.59406045942353

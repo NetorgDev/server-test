@@ -8,6 +8,22 @@
     "reason": "Banned by an operator."
   },
   {
+    "uuid": "a40823bd-f00b-3b1c-a497-59b4ee1fb356",
+    "name": "GenesisRising",
+    "created": "2024-05-14 19:29:10 +0000",
+    "source": "Pigpigman",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "b913d620-7071-3fd9-8919-562b1da7f104",
+    "name": "green_fn",
+    "created": "2024-05-15 12:40:04 +0000",
+    "source": "Pigpigman",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
     "uuid": "5b67ed50-67eb-3a3e-bdb3-03b0249056b6",
     "name": "CookedPork64",
     "created": "2024-05-14 14:58:31 +0000",
@@ -108,6 +124,14 @@
     "name": "BiggeyCheese",
     "created": "2024-05-14 14:18:16 +0000",
     "source": "Pigpigman",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "f3f3262f-c139-4311-acf4-f09a913b61d6",
+    "name": "ARSON_IS_FUN",
+    "created": "2024-05-15 13:09:46 +0000",
+    "source": "pinkypromiseop",
     "expires": "forever",
     "reason": "Banned by an operator."
   }

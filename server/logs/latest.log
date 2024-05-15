@@ -1,375 +1,1509 @@
-[16:27:15] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:27:15] [Server thread/INFO]: Loading properties
-[16:27:15] [Server thread/INFO]: Default game type: SURVIVAL
-[16:27:15] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:27:15] [Server thread/INFO]: Debug logging is disabled
-[16:27:15] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:27:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:57:18] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:57:18] [Server thread/INFO]: Loading properties
+[16:57:18] [Server thread/INFO]: Default game type: SURVIVAL
+[16:57:18] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:57:18] [Server thread/INFO]: Debug logging is disabled
+[16:57:18] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:57:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[16:27:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:27:15] [Server thread/INFO]: Data value allowed items: 
-[16:27:15] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[16:57:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:57:18] [Server thread/INFO]: Data value allowed items: 
+[16:57:18] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[16:27:15] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[16:57:18] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[16:27:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[16:57:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[16:27:15] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[16:57:18] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[16:27:15] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[16:57:18] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[16:27:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[16:57:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[16:27:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[16:57:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[16:27:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[16:57:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[16:27:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:57:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[16:27:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:57:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[16:27:15] [Server thread/INFO]: Generating keypair
-[16:27:15] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:27:15] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[16:27:15] [Server thread/INFO]: Using default channel type
-[16:27:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:27:16] [Server thread/ERROR]: Could not load 'plugins/EaglerMOTD.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Listener
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Listener
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
-	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:534) ~[?:?]
-	at java.lang.Class.forName(Class.java:513) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	... 6 more
-Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Listener
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
-	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:534) ~[?:?]
-	at java.lang.Class.forName(Class.java:513) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	... 6 more
-[16:27:16] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[16:27:16] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[16:27:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[16:27:16] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[16:27:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:27:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:27:16] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:27:16] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:27:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:27:16] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:27:16] [Server thread/INFO]: Preparing level "world"
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:27:16] [Server thread/INFO]: Mob Spawn Range: 4
-[16:27:16] [Server thread/INFO]: Anti X-Ray: true
-[16:27:16] [Server thread/INFO]: 	Engine Mode: 1
-[16:27:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:27:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:27:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:27:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:27:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:27:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:27:16] [Server thread/INFO]: Random Lighting Updates: false
-[16:27:16] [Server thread/INFO]: Structure Info Saving: true
-[16:27:16] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:27:16] [Server thread/INFO]: Max Entity Collisions: 8
-[16:27:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:27:16] [Server thread/INFO]: Max TNT Explosions: 100
-[16:27:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:27:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:27:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:27:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:27:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:27:16] [Server thread/INFO]: View Distance: 4
-[16:27:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:27:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:27:16] [Server thread/INFO]: Clear tick list: false
-[16:27:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:27:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:27:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:27:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:27:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:27:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:27:16] [Server thread/INFO]: Water over lava flow speed: 5
-[16:27:16] [Server thread/INFO]: Fix TNT cannons: false
-[16:27:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:27:16] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:27:16] [Server thread/INFO]: World async lighting: false
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:27:16] [Server thread/INFO]: Mob Spawn Range: 4
-[16:27:16] [Server thread/INFO]: Anti X-Ray: true
-[16:27:16] [Server thread/INFO]: 	Engine Mode: 1
-[16:27:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:27:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:27:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:27:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:27:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:27:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:27:16] [Server thread/INFO]: Random Lighting Updates: false
-[16:27:16] [Server thread/INFO]: Structure Info Saving: true
-[16:27:16] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:27:16] [Server thread/INFO]: Max Entity Collisions: 8
-[16:27:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:27:16] [Server thread/INFO]: Max TNT Explosions: 100
-[16:27:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:27:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:27:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:27:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:27:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:27:16] [Server thread/INFO]: View Distance: 4
-[16:27:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:27:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:27:16] [Server thread/INFO]: Clear tick list: false
-[16:27:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:27:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:27:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:27:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:27:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:27:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:27:16] [Server thread/INFO]: Water over lava flow speed: 5
-[16:27:16] [Server thread/INFO]: Fix TNT cannons: false
-[16:27:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:27:16] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:27:16] [Server thread/INFO]: World async lighting: false
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:27:16] [Server thread/INFO]: Mob Spawn Range: 4
-[16:27:16] [Server thread/INFO]: Anti X-Ray: true
-[16:27:16] [Server thread/INFO]: 	Engine Mode: 1
-[16:27:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:27:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:27:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:27:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:27:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:27:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:27:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:27:16] [Server thread/INFO]: Random Lighting Updates: false
-[16:27:16] [Server thread/INFO]: Structure Info Saving: true
-[16:27:16] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:27:16] [Server thread/INFO]: Max Entity Collisions: 8
-[16:27:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:27:16] [Server thread/INFO]: Max TNT Explosions: 100
-[16:27:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:27:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:27:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:27:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:27:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:27:16] [Server thread/INFO]: View Distance: 4
-[16:27:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:27:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:27:16] [Server thread/INFO]: Clear tick list: false
-[16:27:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:27:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:27:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:27:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:27:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:27:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:27:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:27:16] [Server thread/INFO]: Water over lava flow speed: 5
-[16:27:16] [Server thread/INFO]: Fix TNT cannons: false
-[16:27:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:27:16] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:27:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:27:16] [Server thread/INFO]: World async lighting: false
-[16:27:16] [Server thread/INFO]: Preparing start region for level 0 (Seed: 743004433734106075)
-[16:27:17] [Server thread/INFO]: Preparing spawn area: 69%
-[16:27:17] [Server thread/INFO]: Preparing start region for level 1 (Seed: 743004433734106075)
-[16:27:18] [Server thread/INFO]: Preparing start region for level 2 (Seed: 743004433734106075)
-[16:27:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[16:27:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[16:57:18] [Server thread/INFO]: Generating keypair
+[16:57:19] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:57:19] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:57:19] [Server thread/INFO]: Using default channel type
+[16:57:19] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:57:19] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:57:19] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:57:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:57:19] [Server thread/INFO]: [BitchFilter] Loading BitchFilter v1.0
+[16:57:19] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:57:19] [Server thread/INFO]: [NoSpawnPVP] Loading NoSpawnPVP v1.0
+[16:57:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:57:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:57:19] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:57:19] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:57:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:57:19] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:57:19] [Server thread/INFO]: Preparing level "world"
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:57:19] [Server thread/INFO]: Mob Spawn Range: 4
+[16:57:19] [Server thread/INFO]: Anti X-Ray: true
+[16:57:19] [Server thread/INFO]: 	Engine Mode: 1
+[16:57:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:57:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:57:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:57:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:57:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:57:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:57:19] [Server thread/INFO]: Random Lighting Updates: false
+[16:57:19] [Server thread/INFO]: Structure Info Saving: true
+[16:57:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:57:19] [Server thread/INFO]: Max Entity Collisions: 8
+[16:57:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:57:19] [Server thread/INFO]: Max TNT Explosions: 100
+[16:57:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:57:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:57:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:57:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:57:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:57:19] [Server thread/INFO]: View Distance: 4
+[16:57:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:57:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:57:19] [Server thread/INFO]: Clear tick list: false
+[16:57:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:57:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:57:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:57:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:57:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:57:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:57:19] [Server thread/INFO]: Water over lava flow speed: 5
+[16:57:19] [Server thread/INFO]: Fix TNT cannons: false
+[16:57:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:57:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:57:19] [Server thread/INFO]: World async lighting: false
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:57:19] [Server thread/INFO]: Mob Spawn Range: 4
+[16:57:19] [Server thread/INFO]: Anti X-Ray: true
+[16:57:19] [Server thread/INFO]: 	Engine Mode: 1
+[16:57:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:57:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:57:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:57:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:57:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:57:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:57:19] [Server thread/INFO]: Random Lighting Updates: false
+[16:57:19] [Server thread/INFO]: Structure Info Saving: true
+[16:57:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:57:19] [Server thread/INFO]: Max Entity Collisions: 8
+[16:57:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:57:19] [Server thread/INFO]: Max TNT Explosions: 100
+[16:57:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:57:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:57:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:57:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:57:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:57:19] [Server thread/INFO]: View Distance: 4
+[16:57:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:57:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:57:19] [Server thread/INFO]: Clear tick list: false
+[16:57:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:57:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:57:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:57:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:57:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:57:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:57:19] [Server thread/INFO]: Water over lava flow speed: 5
+[16:57:19] [Server thread/INFO]: Fix TNT cannons: false
+[16:57:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:57:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:57:19] [Server thread/INFO]: World async lighting: false
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:57:19] [Server thread/INFO]: Mob Spawn Range: 4
+[16:57:19] [Server thread/INFO]: Anti X-Ray: true
+[16:57:19] [Server thread/INFO]: 	Engine Mode: 1
+[16:57:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:57:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:57:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:57:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:57:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:57:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:57:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:57:19] [Server thread/INFO]: Random Lighting Updates: false
+[16:57:19] [Server thread/INFO]: Structure Info Saving: true
+[16:57:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:57:19] [Server thread/INFO]: Max Entity Collisions: 8
+[16:57:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:57:19] [Server thread/INFO]: Max TNT Explosions: 100
+[16:57:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:57:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:57:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:57:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:57:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:57:19] [Server thread/INFO]: View Distance: 4
+[16:57:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:57:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:57:19] [Server thread/INFO]: Clear tick list: false
+[16:57:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:57:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:57:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:57:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:57:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:57:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:57:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:57:19] [Server thread/INFO]: Water over lava flow speed: 5
+[16:57:19] [Server thread/INFO]: Fix TNT cannons: false
+[16:57:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:57:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:57:19] [Server thread/INFO]: World async lighting: false
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:57:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:57:19] [Server thread/INFO]: Preparing start region for level 0 (Seed: 743004433734106075)
+[16:57:20] [Server thread/INFO]: Preparing spawn area: 48%
+[16:57:21] [Server thread/INFO]: Preparing start region for level 1 (Seed: 743004433734106075)
+[16:57:22] [Server thread/INFO]: Preparing start region for level 2 (Seed: 743004433734106075)
+[16:57:22] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:57:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[16:27:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[16:57:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[16:27:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:27:19] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[16:27:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[16:27:19] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:27:19] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[16:27:19] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:27:19] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:27:19] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:27:19] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:27:19] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:27:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:27:19] [Server thread/INFO]: Done (3.636s)! For help, type "help" or "?"
-[16:27:19] [Server thread/INFO]: Timings Reset
-[16:27:20] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[16:57:22] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:57:22] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:57:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:57:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:57:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:57:22] [Server thread/INFO]: [BitchFilter] Enabling BitchFilter v1.0
+[16:57:22] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:57:22] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:57:22] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:57:22] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:57:22] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:57:22] [Server thread/INFO]: [NoSpawnPVP] Enabling NoSpawnPVP v1.0
+[16:57:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:57:23] [Server thread/INFO]: Done (3.734s)! For help, type "help" or "?"
+[16:57:23] [Server thread/INFO]: Timings Reset
+[16:57:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[16:27:20] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[16:57:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[16:27:20] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[16:57:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[16:33:09] [Thread-8/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
-[16:33:10] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:38372] logged in with entity id 393 at ([world]586.4419189753356, 21.0, -171.69999998807916)
-[16:33:20] [Thread-9/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
-[16:33:20] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:56658] logged in with entity id 468 at ([world]891.4447011421184, 107.74734819987621, -298.48392606732284)
-[16:33:40] [Server thread/INFO]: meepcat2022 lost connection: Login timed out!
-[16:33:40] [Server thread/INFO]: meepcat2022 left the game.
-[16:33:40] [Server thread/WARN]: handleDisconnection() called twice
-[16:33:52] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman 585 75 -245
-[16:33:52] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to 585.5, 75.0, -244.5]
-[16:33:57] [Thread-10/INFO]: UUID of player PancakeMan is 0fe2f6d4-cfe1-3080-acff-ed97f7a9738b
-[16:33:57] [Server thread/INFO]: PancakeMan[/[0:0:0:0:0:0:0:1]:51152] logged in with entity id 627 at ([world_nether]89.27626365382244, 32.0, -11.894624390384239)
-[16:34:11] [Thread-11/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
-[16:34:11] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:54814] logged in with entity id 691 at ([world]586.4419189753356, 21.0, -171.69999998807916)
-[16:34:20] [Async Chat Thread - #1/INFO]: <meepcat2022> have u unbammed cooked yet[m
+[16:58:39] [Thread-7/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[16:58:39] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:40538] logged in with entity id 573 at ([world]597.41558211619, 21.0, -245.43663303486935)
+[16:58:53] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[16:58:53] [Server thread/INFO]: Pigpigman left the game.
+[16:59:51] [Thread-8/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[16:59:51] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:58920] logged in with entity id 652 at ([world]597.41558211619, 21.0, -245.43663303486935)
+[16:59:59] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[16:59:59] [Server thread/INFO]: Pigpigman left the game.
+[17:01:21] [Thread-9/INFO]: UUID of player ponyboy_curry is f30774d2-1fa8-3ed5-912a-cf9233f1f702
+[17:01:21] [Server thread/INFO]: ponyboy_curry[/[0:0:0:0:0:0:0:1]:38124] logged in with entity id 725 at ([world]453.5, 66.0, -205.5)
+[17:01:38] [Server thread/INFO]: ponyboy_curry issued server command: /home hydra
+[17:04:33] [Server thread/INFO]: ponyboy_curry issued server command: /home mine
+[17:04:38] [Server thread/INFO]: ponyboy_curry issued server command: /sethome mine
+[17:04:59] [Server thread/INFO]: ponyboy_curry was shot by Skeleton
+[17:05:05] [Server thread/INFO]: ponyboy_curry issued server command: /back
+[17:06:48] [Thread-11/INFO]: UUID of player Arson_IsFun is c5a5474b-a84f-3d6c-a707-f5ec2fa209aa
+[17:06:48] [Server thread/INFO]: Arson_IsFun[/[0:0:0:0:0:0:0:1]:45674] logged in with entity id 1299 at ([world_the_end]27.300000011920925, 61.0, -16.699999988079075)
+[17:06:57] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun i found hydra base
+[17:07:01] [Server thread/INFO]: Arson_IsFun issued server command: /tpa pony
+[17:07:05] [Server thread/INFO]: ponyboy_curry issued server command: /tpaccept
+[17:07:14] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun im not there yet
+[17:07:17] [Async Chat Thread - #0/INFO]: <Arson_IsFun> where[m
 
-[16:35:00] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
-[16:35:00] [Server thread/INFO]: meepcat2022 left the game.
-[16:35:20] [Thread-12/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
-[16:35:20] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:34556] logged in with entity id 831 at ([world]526.8175474260477, 63.0, -397.69999998807907)
-[16:35:29] [Async Chat Thread - #2/INFO]: <PancakeMan> hola[m
+[17:07:18] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun
+[17:07:21] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun look
+[17:07:27] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun he logged off at his base
+[17:07:31] [Async Chat Thread - #0/INFO]: <Arson_IsFun> BET[m
 
-[16:35:39] [Server thread/INFO]: CookedPork64_ lost connection: Disconnected
-[16:35:39] [Server thread/INFO]: CookedPork64_ left the game.
-[16:35:51] [Server thread/INFO]: PancakeMan has just earned the achievement [Time to Mine!]
-[16:35:51] [Server thread/INFO]: PancakeMan has just earned the achievement [Getting an Upgrade]
-[16:36:19] [Server thread/INFO]: PancakeMan burned to death
-[16:36:26] [Server thread/INFO]: PancakeMan issued server command: /home portal
-[16:36:34] [Server thread/INFO]: PancakeMan issued server command: /back
-[16:37:01] [Thread-13/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
-[16:37:02] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:42054] logged in with entity id 1320 at ([world]526.6999999880791, 60.102624471822246, -397.69999998807907)
-[16:37:32] [Server thread/INFO]: CookedPork64_ lost connection: Login timed out!
-[16:37:32] [Server thread/INFO]: CookedPork64_ left the game.
-[16:37:32] [Server thread/WARN]: handleDisconnection() called twice
-[16:38:09] [Thread-14/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
-[16:38:09] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:54948] logged in with entity id 1505 at ([world]572.7221426245645, 21.0, -168.48538133241053)
-[16:38:15] [Async Chat Thread - #3/INFO]: <Pigpigman> yo[m
+[17:07:31] [Server thread/INFO]: ponyboy_curry issued server command: /tell Arson_IsFun we can trap him there
+[17:07:36] [Async Chat Thread - #0/INFO]: <ponyboy_curry> give food[m
 
-[16:38:19] [Async Chat Thread - #3/INFO]: <meepcat2022> yo[m
+[17:07:39] [Server thread/INFO]: Arson_IsFun issued server command: /whats the cord
+[17:07:43] [Async Chat Thread - #0/INFO]: <Arson_IsFun> cords?[m
 
-[16:38:20] [Async Chat Thread - #3/INFO]: <Pigpigman> I sent an apology to ayaan[m
+[17:07:52] [Async Chat Thread - #0/INFO]: <ponyboy_curry> tp to me hold on[m
 
-[16:38:25] [Async Chat Thread - #3/INFO]: <PancakeMan> ...[m
+[17:08:01] [Server thread/INFO]: Arson_IsFun issued server command: /tpa pony
+[17:08:01] [Server thread/INFO]: ponyboy_curry issued server command: /home hydra
+[17:08:04] [Async Chat Thread - #0/INFO]: <ponyboy_curry> wait[m
 
-[16:38:30] [Async Chat Thread - #3/INFO]: <PancakeMan> good[m
+[17:08:05] [Async Chat Thread - #0/INFO]: <ponyboy_curry> 5 secs[m
 
-[16:38:40] [Async Chat Thread - #3/INFO]: <Pigpigman> Im gonna help him rebuild his server[m
+[17:08:06] [Async Chat Thread - #0/INFO]: <Arson_IsFun> k[m
 
-[16:38:45] [Async Chat Thread - #3/INFO]: <PancakeMan> nice[m
+[17:08:08] [Server thread/INFO]: ponyboy_curry issued server command: /tpaccept
+[17:08:09] [Server thread/INFO]: Arson_IsFun issued server command: /tpa pony
+[17:08:12] [Async Chat Thread - #0/INFO]: <ponyboy_curry> tp now[m
 
-[16:38:46] [Async Chat Thread - #3/INFO]: <Pigpigman> only if he wants help[m
+[17:08:12] [Server thread/INFO]: Arson_IsFun issued server command: /tpa pony
+[17:08:14] [Server thread/INFO]: ponyboy_curry issued server command: /tpaccept
+[17:08:17] [Async Chat Thread - #0/INFO]: <ponyboy_curry> come[m
 
-[16:39:02] [Async Chat Thread - #3/INFO]: <PancakeMan> he's pissed[m
+[17:08:32] [Async Chat Thread - #0/INFO]: <ponyboy_curry> he logged off somewhere up here[m
 
-[16:39:07] [Async Chat Thread - #3/INFO]: <PancakeMan> he doesn't want to make a new server anymore[m
+[17:08:33] [Async Chat Thread - #0/INFO]: <ponyboy_curry> in this hall[m
 
-[16:39:12] [Async Chat Thread - #3/INFO]: <Pigpigman> wait[m
+[17:08:36] [Async Chat Thread - #0/INFO]: <ponyboy_curry> gtg bye[m
 
-[16:39:17] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
-[16:39:17] [Server thread/INFO]: meepcat2022 left the game.
-[16:39:20] [Async Chat Thread - #3/INFO]: <PancakeMan> at least earlier he didn't[m
+[17:08:38] [Server thread/INFO]: ponyboy_curry lost connection: Disconnected
+[17:08:38] [Server thread/INFO]: ponyboy_curry left the game.
+[17:09:31] [Server thread/INFO]: Arson_IsFun has just earned the achievement [We Need to Go Deeper]
+[17:09:49] [Server thread/INFO]: Arson_IsFun issued server command: /sethome nether
+[17:09:52] [Server thread/INFO]: Arson_IsFun issued server command: /home
+[17:09:54] [Server thread/INFO]: Arson_IsFun issued server command: /homes
+[17:10:01] [Server thread/INFO]: Arson_IsFun issued server command: /removehome 1
+[17:10:05] [Server thread/INFO]: Arson_IsFun issued server command: /sthome nether
+[17:10:08] [Server thread/INFO]: Arson_IsFun issued server command: /sethome nether
+[17:10:19] [Server thread/INFO]: Arson_IsFun issued server command: /home mine
+[17:10:50] [Thread-12/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
+[17:10:50] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:47296] logged in with entity id 1847 at ([world]527.1536015492493, 79.0, -389.62974679919705)
+[17:10:56] [Async Chat Thread - #1/INFO]: <CookedPork64_> wsp[m
 
-[16:39:37] [Async Chat Thread - #3/INFO]: <Pigpigman> are you in his class[m
+[17:11:01] [Async Chat Thread - #1/INFO]: <Arson_IsFun> hi[m
 
-[16:39:38] [Async Chat Thread - #3/INFO]: <PancakeMan> anyway im making a base in the nether[m
+[17:11:03] [Server thread/INFO]: Arson_IsFun issued server command: /home jason
+[17:11:12] [Async Chat Thread - #1/INFO]: <Arson_IsFun> how r u[m
 
-[16:39:43] [Async Chat Thread - #3/INFO]: <PancakeMan> no im not in his class[m
+[17:11:15] [Async Chat Thread - #1/INFO]: <CookedPork64_> gud[m
 
-[16:40:03] [Async Chat Thread - #3/INFO]: <PancakeMan> i personally think you should give me diamonds[m
+[17:11:20] [Async Chat Thread - #1/INFO]: <Arson_IsFun> afk rq[m
 
-[16:40:10] [Async Chat Thread - #3/INFO]: <Pigpigman> no[m
+[17:11:23] [Async Chat Thread - #1/INFO]: <CookedPork64_> kklk[m
 
-[16:40:24] [Async Chat Thread - #3/INFO]: <PancakeMan> kidding...[m
+[17:11:57] [Server thread/INFO]: Arson_IsFun lost connection: Disconnected
+[17:11:57] [Server thread/INFO]: Arson_IsFun left the game.
+[17:12:29] [Server thread/INFO]: CookedPork64_ lost connection: Disconnected
+[17:12:29] [Server thread/INFO]: CookedPork64_ left the game.
+[17:15:56] [Thread-13/INFO]: UUID of player France_is_better is 46545960-8102-35a3-8be8-0972f59b2f7c
+[17:15:56] [Server thread/INFO]: France_is_better[/[0:0:0:0:0:0:0:1]:58500] logged in with entity id 2089 at ([world]599.0394354765396, 21.0, -245.7252467425936)
+[17:16:14] [Thread-14/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[17:16:14] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:37788] logged in with entity id 2218 at ([world]597.41558211619, 21.0, -245.43663303486935)
+[17:16:27] [Async Chat Thread - #2/INFO]: <France_is_better> hey[m
 
-[16:40:29] [Server thread/INFO]: PancakeMan issued server command: /eagskull
-[16:40:30] [Thread-15/INFO]: UUID of player Arson_IsFun is c5a5474b-a84f-3d6c-a707-f5ec2fa209aa
-[16:40:30] [Server thread/INFO]: Arson_IsFun[/[0:0:0:0:0:0:0:1]:38062] logged in with entity id 2094 at ([world]582.1900500475429, 35.0, -335.6537972214666)
-[16:40:39] [Thread-16/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
-[16:40:39] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:57408] logged in with entity id 2145 at ([world]542.1199673410655, 17.0, -192.92500001192093)
-[16:40:40] [Async Chat Thread - #3/INFO]: <Pigpigman> arson[m
+[17:16:29] [Async Chat Thread - #2/INFO]: <France_is_better> um[m
 
-[16:40:42] [Async Chat Thread - #3/INFO]: <Arson_IsFun> ?[m
+[17:16:33] [Server thread/INFO]: France_is_better issued server command: /pig pig man
+[17:16:44] [Thread-15/INFO]: UUID of player HydraBlaz3_TOPG1 is 97f45adc-b033-3b3a-a51c-ea4ada1421de
+[17:16:44] [Server thread/INFO]: HydraBlaz3_TOPG1[/[0:0:0:0:0:0:0:1]:57732] logged in with entity id 2582 at ([world]595.3000000119209, 21.0, -250.69999998807907)
+[17:16:45] [Server thread/INFO]: Pigpigman lost connection: Login timed out!
+[17:16:45] [Server thread/INFO]: Pigpigman left the game.
+[17:16:45] [Server thread/WARN]: handleDisconnection() called twice
+[17:16:46] [Async Chat Thread - #2/INFO]: <France_is_better> I lost my gear after finishing the game[m
 
-[16:40:54] [Async Chat Thread - #3/INFO]: <Pigpigman> I apolagised to ayaan[m
+[17:16:54] [Thread-16/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[17:16:54] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:54554] logged in with entity id 2688 at ([world]597.0045179898805, 21.0, -245.07870279222124)
+[17:17:17] [Async Chat Thread - #2/INFO]: <France_is_better> yo what[m
 
-[16:40:59] [Async Chat Thread - #3/INFO]: <Arson_IsFun> and?[m
+[17:17:24] [Thread-17/INFO]: UUID of player Pigpigman_ is acff22f7-0927-3620-b0a6-1707a8f66e11
+[17:17:24] [Server thread/INFO]: Pigpigman_[/[0:0:0:0:0:0:0:1]:52458] logged in with entity id 2931 at ([world]466.5502573335088, 73.0, -181.75534229712804)
+[17:17:29] [Thread-18/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
+[17:17:29] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:36132] logged in with entity id 3211 at ([world]580.5092967497769, 64.0, -366.62072633127997)
+[17:17:34] [Server thread/INFO]: Pigpigman_ issued server command: /gamemode creative
+[17:17:35] [Async Chat Thread - #2/INFO]: <meepcat2022> pigpigman[m
 
-[16:41:02] [Async Chat Thread - #3/INFO]: <Pigpigman> I sent him a long apology letter[m
+[17:17:36] [Async Chat Thread - #2/INFO]: <Pigpigman_> BRO[m
 
-[16:41:14] [Server thread/INFO]: meepcat2022 issued server command: /tell PancakeMan give me food
-[16:41:16] [Async Chat Thread - #3/INFO]: <Arson_IsFun> ok?[m
+[17:17:37] [Async Chat Thread - #2/INFO]: <meepcat2022> check[m
 
-[16:41:20] [Async Chat Thread - #3/INFO]: <Pigpigman> uh[m
+[17:17:38] [Async Chat Thread - #2/INFO]: <Pigpigman_> HELP[m
 
-[16:41:26] [Server thread/INFO]: meepcat2022 issued server command: /tell PancakeMan please ill tp u to here
-[16:41:26] [Server thread/INFO]: PancakeMan issued server command: /tell meepcat2022 maybe later im making a nether base
-[16:42:03] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
-[16:42:03] [Server thread/INFO]: meepcat2022 left the game.
-[16:42:26] [Thread-17/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
-[16:42:26] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:59700] logged in with entity id 2659 at ([world]586.7994588615517, 22.0, -158.5663841381605)
-[16:42:57] [Server thread/INFO]: Arson_IsFun issued server command: /home jason
-[16:43:03] [Server thread/INFO]: Arson_IsFun was slain by Zombie
-[16:43:06] [Server thread/INFO]: Arson_IsFun issued server command: /back
-[16:43:09] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ow[m
+[17:17:38] [Thread-19/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
+[17:17:38] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:41894] logged in with entity id 3275 at ([world]534.0749288890927, 77.0, -398.26620401754604)
+[17:17:41] [Async Chat Thread - #2/INFO]: <France_is_better> oh...[m
 
-[16:43:10] [Async Chat Thread - #4/INFO]: <meepcat2022> the zombie was a w[m
+[17:17:45] [Async Chat Thread - #2/INFO]: <Pigpigman_> HYDRA STOLE MY PASSWORD[m
 
-[16:43:14] [Async Chat Thread - #4/INFO]: <meepcat2022> srry for ur loss[m
+[17:17:45] [Server thread/INFO]: Pigpigman issued server command: /xp
+[17:17:46] [Async Chat Thread - #2/INFO]: <CookedPork64_> aug[m
 
+[17:17:48] [Async Chat Thread - #2/INFO]: <Pigpigman_> FUCK YOU JASON[m
+
+[17:17:50] [Async Chat Thread - #2/INFO]: <CookedPork64_> lmao[m
+
+[17:17:55] [Server thread/INFO]: Pigpigman issued server command: /xp 92358 France_is_better
+[17:17:55] [Server thread/INFO]: [Pigpigman: Given 92358 experience to France_is_better]
+[17:18:00] [Async Chat Thread - #2/INFO]: <CookedPork64_> oh wait-[m
+
+[17:18:00] [Server thread/INFO]: Pigpigman issued server command: /xp 92358 HydraBlaz3_TOPG1
+[17:18:00] [Server thread/INFO]: [Pigpigman: Given 92358 experience to HydraBlaz3_TOPG1]
+[17:18:02] [Server thread/INFO]: Pigpigman issued server command: /xp 92358 HydraBlaz3_TOPG1
+[17:18:02] [Server thread/INFO]: [Pigpigman: Given 92358 experience to HydraBlaz3_TOPG1]
+[17:18:02] [Server thread/INFO]: CookedPork64_ lost connection: Disconnected
+[17:18:02] [Server thread/INFO]: CookedPork64_ left the game.
+[17:18:03] [Server thread/INFO]: Pigpigman issued server command: /xp 92358 France_is_better
+[17:18:03] [Server thread/INFO]: [Pigpigman: Given 92358 experience to France_is_better]
+[17:18:06] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[17:18:06] [Server thread/INFO]: Pigpigman left the game.
+[17:18:09] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> huh?[m
+
+[17:18:11] [Async Chat Thread - #2/INFO]: <meepcat2022> ppigpigman[m
+
+[17:18:14] [Async Chat Thread - #2/INFO]: <meepcat2022> cneck your[m
+
+[17:18:16] [Async Chat Thread - #2/INFO]: <meepcat2022> dms[m
+
+[17:18:21] [Async Chat Thread - #2/INFO]: <meepcat2022> also can u give me a refund[m
+
+[17:18:27] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> mathew wtf did i do?[m
+
+[17:18:28] [Thread-20/INFO]: UUID of player mazdonsbellyfat is c111195b-0bb3-38ca-acbf-4aaf52f4a0e5
+[17:18:28] [Server thread/INFO]: mazdonsbellyfat[/[0:0:0:0:0:0:0:1]:34930] logged in with entity id 3402 at ([world]449.5, 67.0, -206.5)
+[17:18:40] [Async Chat Thread - #2/INFO]: <Pigpigman_> remember[m
+
+[17:18:41] [Async Chat Thread - #2/INFO]: <Pigpigman_> in civics[m
+
+[17:18:49] [Async Chat Thread - #2/INFO]: <Pigpigman_> you asked to see my computer[m
+
+[17:18:52] [Async Chat Thread - #2/INFO]: <mazdonsbellyfat> guys join mogwarts[m
+
+[17:18:54] [Async Chat Thread - #2/INFO]: <Pigpigman_> then my password popped up onscreen[m
+
+[17:18:55] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> and?[m
+
+[17:18:58] [Async Chat Thread - #2/INFO]: <Pigpigman_> you walked out of the class smiling[m
+
+[17:19:00] [Async Chat Thread - #2/INFO]: <mazdonsbellyfat> jason hacked it[m
+
+[17:19:04] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> tf?[m
+
+[17:19:04] [Async Chat Thread - #2/INFO]: <Pigpigman_> me and stanley were together btw[m
+
+[17:19:08] [Async Chat Thread - #2/INFO]: <mazdonsbellyfat> he confessed in gym[m
+
+[17:19:11] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> ?[m
+
+[17:19:12] [Async Chat Thread - #2/INFO]: <mazdonsbellyfat> im stanley btw[m
+
+[17:19:13] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> what[m
+
+[17:19:16] [Async Chat Thread - #2/INFO]: <Pigpigman_> motherfucker[m
+
+[17:19:19] [Async Chat Thread - #2/INFO]: <Pigpigman_> hydra[m
+
+[17:19:20] [Async Chat Thread - #2/INFO]: <mazdonsbellyfat> not mazdons belly fat[m
+
+[17:19:22] [Server thread/INFO]: mazdonsbellyfat lost connection: Disconnected
+[17:19:22] [Server thread/INFO]: mazdonsbellyfat left the game.
+[17:19:25] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> WTF ARE YALL TALKIN ABOUT[m
+
+[17:19:29] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> JESUS[m
+
+[17:19:33] [Async Chat Thread - #2/INFO]: <Pigpigman_> GIVE ME BACK MY PASSWORD[m
+
+[17:19:37] [Async Chat Thread - #2/INFO]: <Pigpigman_> OR YOUR NO LONGER MY FRIEND[m
+
+[17:19:38] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> IDK UR PASSWORD[m
+
+[17:19:46] [Async Chat Thread - #2/INFO]: <Pigpigman_> GIVE ME BACK MY ACCOUNt[m
+
+[17:19:50] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> CHECK SERVER PLAYER DATA DUMBFUCK[m
+
+[17:19:58] [Async Chat Thread - #2/INFO]: <meepcat2022> hydra[m
+
+[17:20:00] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> ID HAVE IT[m
+
+[17:20:01] [Async Chat Thread - #2/INFO]: <meepcat2022> i need my books back[m
+
+[17:20:04] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /
+[17:20:06] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> ID HAVE IT[m
+
+[17:20:10] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> OML[m
+
+[17:20:21] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> Pigpigman_ i'll look in player data ok?[m
+
+[17:20:27] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> I'll find ur password[m
+
+[17:20:29] [Server thread/INFO]: France_is_better lost connection: Disconnected
+[17:20:29] [Server thread/INFO]: France_is_better left the game.
+[17:20:37] [Server thread/INFO]: meepcat2022 issued server command: /tpa HydraBlaz3_TOPG1
+[17:20:43] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpaccept
+[17:20:43] [Async Chat Thread - #2/INFO]: <Pigpigman_> you cant[m
+
+[17:20:45] [Async Chat Thread - #2/INFO]: <Pigpigman_> buddy[m
+
+[17:20:50] [Async Chat Thread - #2/INFO]: <Pigpigman_> you think it is that easy dont you?[m
+
+[17:20:50] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tell Pigpigman_ I found it
+[17:20:54] [Async Chat Thread - #2/INFO]: <Pigpigman_> ok[m
+
+[17:21:01] [Async Chat Thread - #2/INFO]: <Pigpigman_> tell me it[m
+
+[17:21:07] [Async Chat Thread - #2/INFO]: <Pigpigman_> whisper it to me[m
+
+[17:21:08] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tell Pigpigman_ change asap: mrsigma2
+[17:21:12] [Async Chat Thread - #2/INFO]: <meepcat2022> ok i gtg[m
+
+[17:21:13] [Server thread/INFO]: Pigpigman_ lost connection: Disconnected
+[17:21:13] [Server thread/INFO]: Pigpigman_ left the game.
+[17:21:25] [Thread-21/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[17:21:25] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:52004] logged in with entity id 4083 at ([world]594.3000000119209, 26.200000047683716, -243.30000001192093)
+[17:21:35] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> what[m
+
+[17:21:40] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> wdy want[m
+
+[17:21:48] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /home bunker
+[17:21:56] [Async Chat Thread - #2/INFO]: <meepcat2022> pigpigman[m
+
+[17:22:12] [Async Chat Thread - #2/INFO]: <meepcat2022> i need a refund on my xp levels[m
+
+[17:22:13] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> see? ITS THAT FUCKING EASY TO CHECK PLAYER DATA[m
+
+[17:22:16] [Thread-22/INFO]: UUID of player France_is_better is 46545960-8102-35a3-8be8-0972f59b2f7c
+[17:22:16] [Server thread/INFO]: France_is_better[/[0:0:0:0:0:0:0:1]:43862] logged in with entity id 4243 at ([world]599.0985762602041, 21.0, -249.01286341420087)
+[17:22:23] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /homes
+[17:22:25] [Thread-23/INFO]: UUID of player micah is 383326cc-7da7-3474-92dc-0d6fa465a50a
+[17:22:25] [Server thread/INFO]: micah[/[0:0:0:0:0:0:0:1]:43868] logged in with entity id 4266 at ([world_the_end]575.5, -1956.8445403185938, 155.5)
+[17:22:41] [Async Chat Thread - #2/INFO]: <HydraBlaz3_TOPG1> WE CHILL MATHEW?[m
+
+[17:22:47] [Async Chat Thread - #2/INFO]: <meepcat2022> PIGPIGMAN[m
+
+[17:22:52] [Server thread/INFO]: micah lost connection: Disconnected
+[17:22:52] [Server thread/INFO]: micah left the game.
+[17:22:53] [Async Chat Thread - #2/INFO]: <meepcat2022> I NEED MY DAMN REFUND[m
+
+[17:22:55] [Server thread/INFO]: France_is_better issued server command: /home mines
+[17:22:59] [Async Chat Thread - #2/INFO]: <Pigpigman> changed pass[m
+
+[17:23:03] [Async Chat Thread - #2/INFO]: <Pigpigman> even harder to crack now[m
+
+[17:23:08] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[17:23:08] [Server thread/INFO]: Pigpigman left the game.
+[17:23:10] [Async Chat Thread - #2/INFO]: <meepcat2022> PIGPIG[m
+
+[17:23:11] [Async Chat Thread - #2/INFO]: <meepcat2022> FUCK U[m
+
+[17:23:22] [Server thread/INFO]: France_is_better issued server command: /msg HydraBlaz3_TOPG1 Yo u here
+[17:23:44] [Server thread/INFO]: France_is_better lost connection: Disconnected
+[17:23:44] [Server thread/INFO]: France_is_better left the game.
+[17:24:11] [Async Chat Thread - #2/INFO]: <meepcat2022> hydra[m
+
+[17:24:16] [Async Chat Thread - #2/INFO]: <meepcat2022> do u know who has my books[m
+
+[17:25:19] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> no[m
+
+[17:25:33] [Async Chat Thread - #3/INFO]: <meepcat2022> can u tpa me to the enchat setup that u have[m
+
+[17:26:32] [Async Chat Thread - #3/INFO]: <meepcat2022> hydra[m
+
+[17:26:36] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> yeah?[m
+
+[17:26:43] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /home endportal
+[17:26:44] [Async Chat Thread - #3/INFO]: <meepcat2022> can u tpa me to ur enchant setup[m
+
+[17:26:46] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> sure[m
+
+[17:27:08] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere meepcat2022
+[17:27:10] [Server thread/INFO]: meepcat2022 issued server command: /tpaccept
+[17:27:14] [Async Chat Thread - #3/INFO]: <meepcat2022> if this is a trap...[m
+
+[17:27:19] [Async Chat Thread - #3/INFO]: <meepcat2022> thx[m
+
+[17:27:20] [Thread-24/INFO]: UUID of player Micah_the_bot is 0bafd286-993f-37d1-8938-715238c92f55
+[17:27:20] [Server thread/INFO]: Micah_the_bot[/[0:0:0:0:0:0:0:1]:35318] logged in with entity id 4900 at ([world]452.5, 75.0, -205.5)
+[17:27:22] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> btw if u gimme lapis I can enchant ur stuff for u[m
+
+[17:27:30] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> I have lots of levels from dragon[m
+
+[17:27:37] [Async Chat Thread - #3/INFO]: <meepcat2022> i lost all my levels[m
+
+[17:27:45] [Async Chat Thread - #3/INFO]: <meepcat2022> cuz i got lagged into a wall[m
+
+[17:27:46] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> Want me to enchant u smthing[m
+
+[17:27:50] [Async Chat Thread - #3/INFO]: <meepcat2022> no[m
+
+[17:27:53] [Async Chat Thread - #3/INFO]: <meepcat2022> actually[m
+
+[17:27:55] [Async Chat Thread - #3/INFO]: <meepcat2022> wait[m
+
+[17:27:57] [Server thread/INFO]: meepcat2022 issued server command: /home meepcat2022
+[17:28:07] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> um[m
+
+[17:28:08] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> ok[m
+
+[17:28:11] [Async Chat Thread - #3/INFO]: <Micah_the_bot> can you tp me pls[m
+
+[17:28:12] [Server thread/WARN]: meepcat2022 moved wrongly!
+[17:28:17] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere Micah_the_bot
+[17:28:21] [Server thread/INFO]: Micah_the_bot issued server command: /tpaccept
+[17:28:31] [Server thread/INFO]: meepcat2022 issued server command: /tpa HydraBlaz3_TOPG1
+[17:28:37] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpaccept
+[17:28:38] [Async Chat Thread - #3/INFO]: <Micah_the_bot> on more time[m
+
+[17:28:43] [Server thread/INFO]: Micah_the_bot has just earned the achievement [Taking Inventory]
+[17:28:46] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere Micah_the_bot
+[17:28:50] [Async Chat Thread - #3/INFO]: <meepcat2022> those books[m
+
+[17:28:51] [Server thread/INFO]: Micah_the_bot issued server command: /tpaccept
+[17:28:54] [Async Chat Thread - #3/INFO]: <meepcat2022> i need sharp and prot[m
+
+[17:28:55] [Server thread/INFO]: Micah_the_bot issued server command: /tpaccept
+[17:29:04] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> I need lapis[m
+
+[17:29:07] [Async Chat Thread - #3/INFO]: <meepcat2022> wanna see something cool[m
+
+[17:29:17] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> what[m
+
+[17:29:19] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> ty[m
+
+[17:29:21] [Async Chat Thread - #3/INFO]: <meepcat2022> micah[m
+
+[17:29:24] [Async Chat Thread - #3/INFO]: <meepcat2022> do u mind if i kill u[m
+
+[17:29:31] [Async Chat Thread - #3/INFO]: <meepcat2022> new bow name[m
+
+[17:29:39] [Async Chat Thread - #3/INFO]: <Micah_the_bot> one sec[m
+
+[17:29:41] [Thread-25/INFO]: UUID of player France_is_better is 46545960-8102-35a3-8be8-0972f59b2f7c
+[17:29:41] [Server thread/INFO]: France_is_better[/[0:0:0:0:0:0:0:1]:53746] logged in with entity id 5242 at ([world]663.6999999880791, 59.0, -229.3622565357516)
+[17:29:41] [Async Chat Thread - #3/INFO]: <meepcat2022> ok[m
+
+[17:29:49] [Async Chat Thread - #3/INFO]: <meepcat2022> now[m
+
+[17:29:50] [Async Chat Thread - #3/INFO]: <meepcat2022> right[m
+
+[17:29:53] [Async Chat Thread - #3/INFO]: <Micah_the_bot> where is the bed[m
+
+[17:29:58] [Async Chat Thread - #3/INFO]: <meepcat2022> ill tp u back[m
+
+[17:30:00] [Async Chat Thread - #3/INFO]: <France_is_better> meep smite him[m
+
+[17:30:05] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> follow me meepcat[m
+
+[17:30:08] [Async Chat Thread - #3/INFO]: <meepcat2022> wait[m
+
+[17:30:13] [Server thread/INFO]: Micah_the_bot was shot by meepcat2022 using [Blossom]
+[17:30:17] [Async Chat Thread - #3/INFO]: <France_is_better> alr[m
+
+[17:30:25] [Server thread/INFO]: meepcat2022 issued server command: /tpahere meepcat2022
+[17:30:26] [Async Chat Thread - #3/INFO]: <HydraBlaz3_TOPG1> Meepcat[m
+
+[17:30:31] [Async Chat Thread - #3/INFO]: <France_is_better> good job[m
+
+[17:30:34] [Async Chat Thread - #3/INFO]: <Micah_the_bot> tp me[m
+
+[17:30:45] [Server thread/INFO]: France_is_better issued server command: /home stronghold
+[17:30:51] [Server thread/INFO]: meepcat2022 issued server command: /tpahere
+[17:30:53] [Async Chat Thread - #3/INFO]: <Micah_the_bot> TP me[m
+
+[17:30:54] [Server thread/INFO]: meepcat2022 issued server command: /tpahere meepcat2022
+[17:30:56] [Server thread/INFO]: meepcat2022 issued server command: /tpahere Micah_the_bot
+[17:30:58] [Async Chat Thread - #3/INFO]: <meepcat2022> srry[m
+
+[17:31:02] [Server thread/INFO]: Micah_the_bot issued server command: /tpaccept
+[17:31:03] [Async Chat Thread - #3/INFO]: <meepcat2022> ur name is kind of long[m
+
+[17:31:05] [Async Chat Thread - #3/INFO]: <France_is_better> U got lapis[m
+
+[17:32:30] [Server thread/INFO]: France_is_better lost connection: Disconnected
+[17:32:30] [Server thread/INFO]: France_is_better left the game.
+[17:33:18] [Async Chat Thread - #4/INFO]: <Micah_the_bot> where is the library[m
+
+[17:33:41] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> did u take my lapos[m
+
+[17:33:49] [Async Chat Thread - #4/INFO]: <Micah_the_bot> no[m
+
+[17:34:05] [Async Chat Thread - #4/INFO]: <meepcat2022> hydra[m
+
+[17:34:14] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> yo[m
+
+[17:34:19] [Async Chat Thread - #4/INFO]: <meepcat2022> i need the books back[m
+
+[17:34:24] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> ok[m
+
+[17:34:25] [Thread-27/INFO]: UUID of player France_is_better is 46545960-8102-35a3-8be8-0972f59b2f7c
+[17:34:25] [Server thread/INFO]: France_is_better[/[0:0:0:0:0:0:0:1]:43634] logged in with entity id 6278 at ([world]583.5759398276688, 21.0, -247.83715934446212)
+[17:34:28] [Server thread/INFO]: Micah_the_bot was shot by HydraBlaz3_TOPG1 using [Blood Seeker]
+[17:34:29] [Async Chat Thread - #4/INFO]: <meepcat2022> and btw[m
+
+[17:34:35] [Async Chat Thread - #4/INFO]: <meepcat2022> do u mind if i kill u for levels[m
+
+[17:34:35] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere Micah_the_bot
+[17:34:41] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> HELL YES I MIND[m
+
+[17:34:42] [Server thread/INFO]: France_is_better lost connection: Disconnected
+[17:34:42] [Server thread/INFO]: France_is_better left the game.
+[17:34:44] [Server thread/INFO]: Micah_the_bot issued server command: /tpaccept
+[17:34:46] [Async Chat Thread - #4/INFO]: <meepcat2022> actually wanna pvp sometime[m
+
+[17:34:54] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> sure how about rn[m
+
+[17:34:56] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> In the end[m
+
+[17:35:01] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> though i gtg in a bit[m
+
+[17:35:05] [Async Chat Thread - #4/INFO]: <meepcat2022> sire ig[m
+
+[17:35:09] [Async Chat Thread - #4/INFO]: <meepcat2022> but i wast thinking arch stylw[m
+
+[17:35:15] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> No[m
+
+[17:35:17] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> this first[m
+
+[17:35:18] [Thread-28/INFO]: UUID of player France_is_better is 46545960-8102-35a3-8be8-0972f59b2f7c
+[17:35:18] [Server thread/INFO]: France_is_better[/[0:0:0:0:0:0:0:1]:51726] logged in with entity id 6767 at ([world]588.7798985921646, 21.0, -247.98357133841307)
+[17:35:27] [Async Chat Thread - #4/INFO]: <meepcat2022> i need 1 dimond[m
+
+[17:35:36] [Async Chat Thread - #4/INFO]: <France_is_better> alr[m
+
+[17:35:38] [Async Chat Thread - #4/INFO]: <meepcat2022> someone wtole my old sword[m
+
+[17:35:43] [Async Chat Thread - #4/INFO]: <meepcat2022> france[m
+
+[17:35:45] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> meepcat2022[m
+
+[17:35:46] [Async Chat Thread - #4/INFO]: <meepcat2022> dimond[m
+
+[17:35:48] [Async Chat Thread - #4/INFO]: <meepcat2022> thx[m
+
+[17:35:50] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> I have a backup sword[m
+
+[17:35:56] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> enchanted[m
+
+[17:36:00] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere meepcat2022
+[17:36:14] [Thread-29/INFO]: UUID of player Arson_IsFun is c5a5474b-a84f-3d6c-a707-f5ec2fa209aa
+[17:36:14] [Server thread/INFO]: Arson_IsFun[/[0:0:0:0:0:0:0:1]:56274] logged in with entity id 6998 at ([world]560.025979631597, 68.0, -288.9919401693062)
+[17:36:14] [Async Chat Thread - #4/INFO]: <France_is_better> u got lapis[m
+
+[17:36:14] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> I have the egg on me[m
+
+[17:36:17] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> na[m
+
+[17:36:21] [Async Chat Thread - #4/INFO]: <Arson_IsFun> wassup[m
+
+[17:36:28] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> we kille dthe dragon[m
+
+[17:36:29] [Server thread/INFO]: meepcat2022 issued server command: /tpaccept
+[17:36:30] [Async Chat Thread - #4/INFO]: <France_is_better> bruh, I gott 219 levels[m
+
+[17:36:30] [Async Chat Thread - #4/INFO]: <Arson_IsFun> anyone got any gunpowder[m
+
+[17:36:40] [Async Chat Thread - #4/INFO]: <meepcat2022> o have no levels[m
+
+[17:36:47] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ?[m
+
+[17:36:48] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> rename it[m
+
+[17:36:48] [Async Chat Thread - #4/INFO]: <meepcat2022> nice ig[m
+
+[17:36:56] [Async Chat Thread - #4/INFO]: <meepcat2022> wait[m
+
+[17:36:57] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> pvp?[m
+
+[17:36:58] [Async Chat Thread - #4/INFO]: <meepcat2022> i can keep this[m
+
+[17:37:01] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> yeah[m
+
+[17:37:07] [Async Chat Thread - #4/INFO]: <meepcat2022> my armour sucks[m
+
+[17:37:10] [Async Chat Thread - #4/INFO]: <meepcat2022> let me change my pack[m
+
+[17:37:11] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> Its aight[m
+
+[17:37:26] [Server thread/INFO]: France_is_better lost connection: Disconnected
+[17:37:26] [Server thread/INFO]: France_is_better left the game.
+[17:37:31] [Async Chat Thread - #4/INFO]: <meepcat2022> talso my teacher is on me[m
+
+[17:37:40] [Async Chat Thread - #4/INFO]: <meepcat2022> ok[m
+
+[17:37:42] [Async Chat Thread - #4/INFO]: <meepcat2022> start ig[m
+
+[17:37:54] [Server thread/INFO]: meepcat2022 was shot by HydraBlaz3_TOPG1
+[17:37:56] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> gg[m
+
+[17:38:00] [Async Chat Thread - #4/INFO]: <meepcat2022> gg ig[m
+
+[17:38:02] [Server thread/INFO]: HydraBlaz3_TOPG1 issued server command: /tpahere meepcat2022
+[17:38:06] [Async Chat Thread - #4/INFO]: <meepcat2022> my teacher is on me rn[m
+
+[17:38:07] [Server thread/INFO]: meepcat2022 issued server command: /tpaccept
+[17:38:12] [Thread-30/INFO]: UUID of player Pigpigman is b7fd111a-73ea-3681-a2bd-a057ee5898ba
+[17:38:12] [Server thread/INFO]: Pigpigman[/[0:0:0:0:0:0:0:1]:41016] logged in with entity id 7665 at ([world]597.8248594310463, 22.834352625072285, -248.064088075124)
+[17:38:24] [Async Chat Thread - #4/INFO]: <Pigpigman> sooo[m
+
+[17:38:30] [Async Chat Thread - #4/INFO]: <meepcat2022> pigpigman[m
+
+[17:38:33] [Async Chat Thread - #4/INFO]: <meepcat2022> i need a refund on levels[m
+
+[17:38:40] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> AM I MAYBE CHILL NOW MASTER PIG?[m
+
+[17:38:40] [Async Chat Thread - #4/INFO]: <Arson_IsFun> KABOOM[m
+
+[17:38:42] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> AM I MAYBE CHILL NOW MASTER PIG?[m
+
+[17:38:44] [Async Chat Thread - #4/INFO]: <Arson_IsFun> HEAHAHAHAHAHAHAHA[m
+
+[17:38:47] [Async Chat Thread - #4/INFO]: <HydraBlaz3_TOPG1> asshole[m
+
+[17:38:47] [Async Chat Thread - #4/INFO]: <Micah_the_bot> MATTHEW I NEED TO TALK TO YOU[m
+
+[17:38:48] [Async Chat Thread - #4/INFO]: <Arson_IsFun> HEAHAHAHAHAHAHAHAHA[m
+
+[17:38:55] [Server thread/INFO]: Arson_IsFun issued server command: /home end
+[17:39:13] [Server thread/INFO]: HydraBlaz3_TOPG1 lost connection: Disconnected
+[17:39:13] [Server thread/INFO]: HydraBlaz3_TOPG1 left the game.
+[17:39:16] [Async Chat Thread - #4/INFO]: <Micah_the_bot> on slack mattnew[m
+
+[17:39:18] [Server thread/INFO]: Micah_the_bot lost connection: Disconnected
+[17:39:18] [Server thread/INFO]: Micah_the_bot left the game.
+[17:39:18] [Async Chat Thread - #4/INFO]: <meepcat2022> pigpigman[m
+
+[17:39:29] [Async Chat Thread - #4/INFO]: <meepcat2022> pigpigman[m
+
+[17:39:33] [Server thread/INFO]: meepcat2022 issued server command: /tpa Arson_IsFun
+[17:39:35] [Async Chat Thread - #4/INFO]: <Pigpigman> alrighty[m
+
+[17:39:37] [Server thread/INFO]: Arson_IsFun issued server command: /tpaccept
+[17:39:38] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ?[m
+
+[17:39:42] [Async Chat Thread - #4/INFO]: <Arson_IsFun> whatcha want[m
+
+[17:39:42] [Async Chat Thread - #4/INFO]: <meepcat2022> can i have a level refund pigpigman[m
+
+[17:39:47] [Server thread/INFO]: Pigpigman issued server command: /xp meepcat2022 64
+[17:39:47] [Server thread/INFO]: [Pigpigman: 'meepcat2022' is not a valid number]
+[17:39:50] [Server thread/INFO]: Pigpigman issued server command: /xp
+[17:39:50] [Async Chat Thread - #4/INFO]: <Arson_IsFun> yo![m
+
+[17:40:02] [Server thread/INFO]: Pigpigman issued server command: /xp 64L meepcat2022
+[17:40:02] [Server thread/INFO]: [Pigpigman: Given 64 levels to meepcat2022]
+[17:40:05] [Async Chat Thread - #4/INFO]: <meepcat2022> thanks[m
+
+[17:40:05] [Async Chat Thread - #4/INFO]: <Pigpigman> there ya go[m
+
+[17:40:08] [Async Chat Thread - #4/INFO]: <meepcat2022> ur a god[m
+
+[17:40:08] [Async Chat Thread - #4/INFO]: <Pigpigman> soo[m
+
+[17:40:10] [Async Chat Thread - #4/INFO]: <Arson_IsFun> meep[m
+
+[17:40:10] [Async Chat Thread - #4/INFO]: <Pigpigman> hydra[m
+
+[17:40:12] [Async Chat Thread - #4/INFO]: <meepcat2022> ye[m
+
+[17:40:16] [Async Chat Thread - #4/INFO]: <Arson_IsFun> should i make pants or tools[m
+
+[17:40:17] [Async Chat Thread - #4/INFO]: <Pigpigman> gonna explain how you magically[m
+
+[17:40:19] [Async Chat Thread - #4/INFO]: <meepcat2022> hydras gone pigpig[m
+
+[17:40:23] [Async Chat Thread - #4/INFO]: <meepcat2022> arson u should get a sword[m
+
+[17:40:25] [Async Chat Thread - #4/INFO]: <Pigpigman> fuck[m
+
+[17:40:26] [Async Chat Thread - #4/INFO]: <Arson_IsFun> k[m
+
+[17:40:34] [Async Chat Thread - #4/INFO]: <meepcat2022> pig just dm him on slack[m
+
+[17:40:41] [Async Chat Thread - #4/INFO]: <Arson_IsFun> look[m
+
+[17:40:44] [Async Chat Thread - #4/INFO]: <Arson_IsFun> kaboom!!![m
+
+[17:40:48] [Async Chat Thread - #4/INFO]: <meepcat2022> oh noooo[m
+
+[17:40:48] [Async Chat Thread - #4/INFO]: <Arson_IsFun> i cant wait to use[m
+
+[17:40:59] [Async Chat Thread - #4/INFO]: <meepcat2022> oh no[m
+
+[17:41:03] [Async Chat Thread - #4/INFO]: <Arson_IsFun> thats 4[m
+
+[17:41:06] [Async Chat Thread - #4/INFO]: <Arson_IsFun> kabooms[m
+
+[17:41:08] [Async Chat Thread - #4/INFO]: <meepcat2022> ...[m
+
+[17:41:20] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman 585 79 -245
+[17:41:20] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to 585.5, 79.0, -244.5]
+[17:41:22] [Async Chat Thread - #4/INFO]: <meepcat2022> i got this[m
+
+[17:41:28] [Async Chat Thread - #4/INFO]: <meepcat2022> srry[m
+
+[17:41:35] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ed erman[m
+
+[17:41:45] [Async Chat Thread - #4/INFO]: <Pigpigman> btw hydra is being permabanned[m
+
+[17:41:50] [Async Chat Thread - #4/INFO]: <Arson_IsFun> why[m
+
+[17:41:54] [Async Chat Thread - #4/INFO]: <Pigpigman> he logged onto my account and blew up the structure stanley made[m
+
+[17:41:58] [Async Chat Thread - #4/INFO]: <Pigpigman> he also changed my password[m
+
+[17:41:59] [Async Chat Thread - #4/INFO]: <Arson_IsFun> can i have his stuff?[m
+
+[17:42:03] [Async Chat Thread - #4/INFO]: <Pigpigman> when I confronted him[m
+
+[17:42:06] [Async Chat Thread - #4/INFO]: <Pigpigman> he was like[m
+
+[17:42:12] [Async Chat Thread - #4/INFO]: <Pigpigman> "lemme check player data"[m
+
+[17:42:14] [Async Chat Thread - #4/INFO]: <Arson_IsFun> Ed[m
+
+[17:42:15] [Async Chat Thread - #4/INFO]: <Arson_IsFun> Ed[m
+
+[17:42:16] [Async Chat Thread - #4/INFO]: <Pigpigman> and he magically has the password[m
+
+[17:42:17] [Async Chat Thread - #4/INFO]: <Arson_IsFun> Ed[m
+
+[17:42:24] [Async Chat Thread - #4/INFO]: <Pigpigman> fucking bitch[m
+
+[17:42:24] [Async Chat Thread - #4/INFO]: <meepcat2022> fr[m
+
+[17:42:30] [Async Chat Thread - #4/INFO]: <Arson_IsFun> can i have his base?[m
+
+[17:42:32] [Server thread/INFO]: Pigpigman issued server command: /ban HydraBlaze_TOPG1
+[17:42:32] [Server thread/INFO]: [Pigpigman: Banned player HydraBlaze_TOPG1]
+[17:42:32] [Async Chat Thread - #4/INFO]: <meepcat2022> can u tp me back to stronghold pig[m
+
+[17:42:35] [Async Chat Thread - #4/INFO]: <meepcat2022> arson thats mine[m
+
+[17:42:37] [Async Chat Thread - #4/INFO]: <meepcat2022> uk[m
+
+[17:42:38] [Async Chat Thread - #4/INFO]: <Arson_IsFun> aww[m
+
+[17:42:40] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ok[m
+
+[17:42:46] [Async Chat Thread - #4/INFO]: <Arson_IsFun> i wnana go to strong hold[m
+
+[17:42:47] [Server thread/INFO]: meepcat2022 issued server command: /home meepcat2022
+[17:42:48] [Async Chat Thread - #4/INFO]: <meepcat2022> ah[m
+
+[17:42:50] [Async Chat Thread - #4/INFO]: <meepcat2022> mee tooo[m
+
+[17:42:54] [Server thread/INFO]: Arson_IsFun issued server command: /tpa meep
+[17:42:58] [Async Chat Thread - #4/INFO]: <meepcat2022> im at the base[m
+
+[17:43:05] [Server thread/INFO]: meepcat2022 issued server command: /tpaccept
+[17:43:07] [Async Chat Thread - #4/INFO]: <meepcat2022> ok[m
+
+[17:43:09] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ima make leggins[m
+
+[17:43:20] [Async Chat Thread - #4/INFO]: <meepcat2022> w[m
+
+[17:43:21] [Async Chat Thread - #4/INFO]: <Arson_IsFun> do i look good[m
+
+[17:43:24] [Async Chat Thread - #4/INFO]: <meepcat2022> yep[m
+
+[17:43:25] [Async Chat Thread - #4/INFO]: <Arson_IsFun> or dopes it make my butt look fat[m
+
+[17:43:48] [Async Chat Thread - #4/INFO]: <Arson_IsFun> oo gunpowder[m
+
+[17:43:50] [Async Chat Thread - #4/INFO]: <meepcat2022> yep[m
+
+[17:43:55] [Async Chat Thread - #4/INFO]: <Arson_IsFun> why so many swords[m
+
+[17:44:00] [Async Chat Thread - #4/INFO]: <meepcat2022> mob grinder[m
+
+[17:44:00] [Async Chat Thread - #4/INFO]: <Arson_IsFun> wtf[m
+
+[17:44:05] [Async Chat Thread - #4/INFO]: <Arson_IsFun> no look[m
+
+[17:44:08] [Async Chat Thread - #4/INFO]: <Arson_IsFun> here[m
+
+[17:44:21] [Async Chat Thread - #4/INFO]: <meepcat2022> what about it[m
+
+[17:44:27] [Async Chat Thread - #4/INFO]: <Arson_IsFun> so many iron swords[m
+
+[17:44:30] [Async Chat Thread - #4/INFO]: <meepcat2022> ye[m
+
+[17:44:49] [Async Chat Thread - #4/INFO]: <meepcat2022> i have a lot to do[m
+
+[17:44:55] [Async Chat Thread - #4/INFO]: <Arson_IsFun> like?[m
+
+[17:44:55] [Server thread/INFO]: meepcat2022 issued server command: /home cookedpork64_
+[17:45:05] [Async Chat Thread - #4/INFO]: <Arson_IsFun> i need to krill creepers[m
+
+[17:45:08] [Async Chat Thread - #4/INFO]: <meepcat2022> enchant[m
+
+[17:45:10] [Async Chat Thread - #4/INFO]: <meepcat2022> want me to help[m
+
+[17:45:16] [Async Chat Thread - #4/INFO]: <Arson_IsFun> what should i kaboom?[m
+
+[17:45:18] [Async Chat Thread - #4/INFO]: <meepcat2022> idk[m
+
+[17:45:21] [Async Chat Thread - #4/INFO]: <Arson_IsFun> and sure[m
+
+[17:45:26] [Async Chat Thread - #4/INFO]: <meepcat2022> proboly the coal mines...[m
+
+[17:45:31] [Async Chat Thread - #4/INFO]: <Arson_IsFun> no like[m
+
+[17:45:34] [Async Chat Thread - #4/INFO]: <Arson_IsFun> i need..[m
+
+[17:45:39] [Async Chat Thread - #4/INFO]: <Arson_IsFun> the urge to explode[m
+
+[17:45:41] [Async Chat Thread - #4/INFO]: <Arson_IsFun> something[m
+
+[17:45:50] [Async Chat Thread - #4/INFO]: <Arson_IsFun> using a large lazer[m
+
+[17:45:52] [Async Chat Thread - #4/INFO]: <Arson_IsFun> from das sky[m
+
+[17:45:53] [Async Chat Thread - #4/INFO]: <meepcat2022> oh no[m
+
+[17:45:57] [Async Chat Thread - #4/INFO]: <Arson_IsFun> like here[m
+
+[17:45:58] [Async Chat Thread - #4/INFO]: <meepcat2022> pj mpppp[m
+
+[17:46:01] [Async Chat Thread - #4/INFO]: <meepcat2022> ohhh noooo[m
+
+[17:46:09] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ima make a huge lazer be back[m
+
+[17:46:11] [Async Chat Thread - #4/INFO]: <meepcat2022> sure idc[m
+
+[17:46:18] [Async Chat Thread - #4/INFO]: <meepcat2022> this is where im going to put the twin towers anyway[m
+
+[17:46:18] [Async Chat Thread - #4/INFO]: <Pigpigman> ANNOUNCEMENT[m
+
+[17:46:21] [Async Chat Thread - #4/INFO]: <meepcat2022> ye[m
+
+[17:46:22] [Async Chat Thread - #4/INFO]: <Arson_IsFun> ?[m
+
+[17:46:26] [Async Chat Thread - #4/INFO]: <meepcat2022> ADDED CUSTOM ENCHANTS?[m
+
+[17:46:27] [Async Chat Thread - #4/INFO]: <Pigpigman> HYDRABLAZE_TOPG1 HAS BEEN PERMA BANNED[m
+
+[17:46:28] [Async Chat Thread - #4/INFO]: <Arson_IsFun> yes[m
+
+[17:46:29] [Async Chat Thread - #4/INFO]: <Arson_IsFun> yes[m
+
+[17:46:32] [Async Chat Thread - #4/INFO]: <Pigpigman> wait[m
+
+[17:46:32] [Async Chat Thread - #4/INFO]: <Arson_IsFun> yes enchants[m
+
+[17:46:33] [Async Chat Thread - #4/INFO]: <meepcat2022> yes ig...[m
+
+[17:46:36] [Async Chat Thread - #4/INFO]: <Pigpigman> they are custom enchants[m
+
+[17:46:39] [Async Chat Thread - #4/INFO]: <Pigpigman> there are*[m
+
+[17:46:41] [Async Chat Thread - #4/INFO]: <meepcat2022> how to get[m
+
+[17:46:42] [Server thread/INFO]: Arson_IsFun lost connection: Disconnected
+[17:46:42] [Server thread/INFO]: Arson_IsFun left the game.
+[17:47:11] [Async Chat Thread - #4/INFO]: <meepcat2022> pigpig man how do i get the custom enchant[m
+
+[17:47:21] [Async Chat Thread - #4/INFO]: <Pigpigman> are there custom enchants?[m
+
+[17:47:26] [Async Chat Thread - #4/INFO]: <meepcat2022> idk[m
+
+[17:47:31] [Async Chat Thread - #4/INFO]: <meepcat2022> idk how to get them[m
+
+[17:47:31] [Async Chat Thread - #4/INFO]: <Pigpigman> then you cant get them[m
+
+[17:47:35] [Async Chat Thread - #4/INFO]: <meepcat2022> :([m
+
+[17:47:36] [Async Chat Thread - #4/INFO]: <Pigpigman> its a plugin[m
+
+[17:47:47] [Async Chat Thread - #4/INFO]: <meepcat2022> :([m
+
+[17:47:59] [Async Chat Thread - #4/INFO]: <Pigpigman> anyways[m
+
+[17:48:32] [Async Chat Thread - #4/INFO]: <meepcat2022> ok sure[m
+
+[17:48:36] [Async Chat Thread - #4/INFO]: <meepcat2022> just dm us in slack[m
+
+[17:48:36] [Async Chat Thread - #4/INFO]: <meepcat2022> bye[m
+
+[17:48:38] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
+[17:48:38] [Server thread/INFO]: meepcat2022 left the game.
+[17:54:23] [Thread-31/INFO]: UUID of player ponyboy_curry is f30774d2-1fa8-3ed5-912a-cf9233f1f702
+[17:54:23] [Server thread/INFO]: ponyboy_curry[/[0:0:0:0:0:0:0:1]:39494] logged in with entity id 9604 at ([world]602.7594235042254, 15.0, -241.42946940492374)
+[17:54:33] [Async Chat Thread - #5/INFO]: <Pigpigman> your jason's friend right?[m
+
+[17:54:38] [Server thread/INFO]: ponyboy_curry lost connection: Disconnected
+[17:54:38] [Server thread/INFO]: ponyboy_curry left the game.
+[17:55:06] [Thread-32/INFO]: UUID of player ponyboy_curry is f30774d2-1fa8-3ed5-912a-cf9233f1f702
+[17:55:06] [Server thread/INFO]: ponyboy_curry[/[0:0:0:0:0:0:0:1]:45576] logged in with entity id 9661 at ([world]603.078437438133, 15.0, -249.07160069202155)
+[17:55:08] [Thread-33/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
+[17:55:08] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:33710] logged in with entity id 9739 at ([world]576.3756840287775, 64.0, -363.465548972647)
+[17:55:16] [Async Chat Thread - #5/INFO]: <meepcat2022> hey ponyboy and pig[m
+
+[17:55:20] [Async Chat Thread - #5/INFO]: <ponyboy_curry> wsg[m
+
+[17:55:41] [Server thread/INFO]: meepcat2022 issued server command: /tpahere ponyboy_curry
+[17:55:43] [Async Chat Thread - #5/INFO]: <meepcat2022> free iron[m
+
+[17:55:47] [Async Chat Thread - #5/INFO]: <meepcat2022> i wont kill u[m
+
+[17:55:59] [Async Chat Thread - #5/INFO]: <ponyboy_curry> nah[m
+
+[17:56:04] [Async Chat Thread - #5/INFO]: <meepcat2022> sure[m
+
+[17:56:11] [Async Chat Thread - #5/INFO]: <Pigpigman> fyi meepcat[m
+
+[17:56:14] [Async Chat Thread - #5/INFO]: <meepcat2022> ye[m
+
+[17:56:15] [Async Chat Thread - #5/INFO]: <Pigpigman> you wont see hydra again[m
+
+[17:56:21] [Async Chat Thread - #5/INFO]: <meepcat2022> ok[m
+
+[17:56:22] [Async Chat Thread - #5/INFO]: <Pigpigman> until he conefsses[m
+
+[17:56:24] [Async Chat Thread - #5/INFO]: <meepcat2022> pigpigman[m
+
+[17:56:30] [Async Chat Thread - #5/INFO]: <meepcat2022> can u tp me back to the stronghold plz[m
+
+[17:56:42] [Async Chat Thread - #5/INFO]: <Pigpigman> idk where it is[m
+
+[17:56:58] [Async Chat Thread - #5/INFO]: <meepcat2022> cant u visit homes[m
+
+[17:57:00] [Async Chat Thread - #5/INFO]: <meepcat2022> ariels home is there[m
+
+[17:57:04] [Async Chat Thread - #5/INFO]: <meepcat2022> ariel is cookedpork64_[m
+
+[17:58:30] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
+[17:58:30] [Server thread/INFO]: meepcat2022 left the game.
+[18:01:16] [Server thread/INFO]: ponyboy_curry lost connection: Disconnected
+[18:01:16] [Server thread/INFO]: ponyboy_curry left the game.
+[18:07:12] [Thread-35/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
+[18:07:12] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:37188] logged in with entity id 12154 at ([world]616.438305620795, 68.0, -406.4314916221483)
+[18:07:16] [Server thread/INFO]: meepcat2022 issued server command: /l0ogin password
+[18:07:24] [Async Chat Thread - #6/INFO]: <meepcat2022> pigpigman[m
+
+[18:07:35] [Thread-36/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
+[18:07:36] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:42880] logged in with entity id 12265 at ([world]534.0459281635283, 77.0, -395.6149162912094)
+[18:07:38] [Async Chat Thread - #6/INFO]: <meepcat2022> hey[m
+
+[18:07:39] [Async Chat Thread - #6/INFO]: <meepcat2022> ariel[m
+
+[18:07:41] [Async Chat Thread - #6/INFO]: <CookedPork64_> wsp[m
+
+[18:07:42] [Async Chat Thread - #6/INFO]: <meepcat2022> take me to ur spawner[m
+
+[18:07:51] [Async Chat Thread - #6/INFO]: <CookedPork64_> kkk[m
+
+[18:08:01] [Async Chat Thread - #6/INFO]: <CookedPork64_> but me linging the otehr spawner[m
+
+[18:08:03] [Server thread/INFO]: CookedPork64_ issued server command: //;joiczyxcp[=-c]'
+[18:08:09] [Server thread/INFO]: meepcat2022 issued server command: /tpa CookedPork64_
+[18:08:10] [Server thread/INFO]: CookedPork64_ issued server command: /!QWAW
+[18:08:17] [Async Chat Thread - #6/INFO]: <meepcat2022> i have xp[m
+
+[18:08:19] [Server thread/INFO]: CookedPork64_ issued server command: /tpaccept
+[18:08:20] [Async Chat Thread - #6/INFO]: <meepcat2022> so im enchanting books[m
+
+[18:08:27] [Async Chat Thread - #6/INFO]: <meepcat2022> also i gtg after this[m
+
+[18:08:30] [Async Chat Thread - #6/INFO]: <CookedPork64_> k[m
+
+[18:08:32] [Async Chat Thread - #6/INFO]: <meepcat2022> no wait[m
+
+[18:08:34] [Async Chat Thread - #6/INFO]: <meepcat2022> the other spawner[m
+
+[18:08:38] [Async Chat Thread - #6/INFO]: <CookedPork64_> lol[m
+
+[18:08:40] [Server thread/INFO]: CookedPork64_ issued server command: /home CookedPork64_
+[18:08:47] [Server thread/INFO]: CookedPork64_ issued server command: /home CookedPork64_
+[18:08:49] [Async Chat Thread - #6/INFO]: <CookedPork64_> going[m
+
+[18:09:10] [Server thread/INFO]: CookedPork64_ issued server command: /home CookedPork64_2
+[18:09:10] [Server thread/INFO]: meepcat2022 issued server command: /tpa CookedPork64_
+[18:09:15] [Server thread/INFO]: CookedPork64_ issued server command: /tpaccept
+[18:09:23] [Async Chat Thread - #6/INFO]: <meepcat2022> breh[m
+
+[18:09:24] [Async Chat Thread - #6/INFO]: <CookedPork64_> LAG[m
+
+[18:09:26] [Async Chat Thread - #6/INFO]: <CookedPork64_> AGuAGhh[m
+
+[18:09:28] [Server thread/INFO]: meepcat2022 issued server command: /tpa CookedPork64_
+[18:09:36] [Async Chat Thread - #6/INFO]: <meepcat2022> go fast[m
+
+[18:09:37] [Async Chat Thread - #6/INFO]: <meepcat2022> i gtg[m
+
+[18:09:39] [Async Chat Thread - #6/INFO]: <meepcat2022> like afk rn[m
+
+[18:09:44] [Async Chat Thread - #6/INFO]: <meepcat2022> go[m
+
+[18:09:45] [Async Chat Thread - #6/INFO]: <meepcat2022> bring me[m
+
+[18:09:47] [Server thread/INFO]: CookedPork64_ issued server command: /home CookedPork64_
+[18:09:54] [Async Chat Thread - #6/INFO]: <CookedPork64_> lotta lag[m
+
+[18:09:56] [Server thread/INFO]: meepcat2022 issued server command: /tpa CookedPork64_
+[18:10:23] [Server thread/INFO]: CookedPork64_ issued server command: /tpahere meepcat2022
+[18:10:37] [Server thread/INFO]: meepcat2022 issued server command: /tpaccept
+[18:10:46] [Async Chat Thread - #6/INFO]: <meepcat2022> thx[m
+
+[18:10:50] [Server thread/INFO]: CookedPork64_ lost connection: Disconnected
+[18:10:50] [Server thread/INFO]: CookedPork64_ left the game.
+[18:11:35] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman meepcat2022
+[18:11:35] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to meepcat2022]
+[18:13:17] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman meepcat2022
+[18:13:17] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to meepcat2022]
+[18:15:13] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman meepcat2022
+[18:15:13] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to meepcat2022]
+[18:15:26] [Async Chat Thread - #7/INFO]: <Pigpigman> LIKE THE WAY YOU LOOK AT ME[m
+
+[18:15:30] [Async Chat Thread - #7/INFO]: <Pigpigman> PREDATOR ACROSS THE FLOOR[m
+
+[18:15:36] [Thread-37/INFO]: UUID of player CookedPork64_ is a319d1ae-4731-3513-b270-cbc19fd3e216
+[18:15:36] [Server thread/INFO]: CookedPork64_[/[0:0:0:0:0:0:0:1]:37822] logged in with entity id 13192 at ([world]636.3000000119209, 12.0, -237.69999998807907)
+[18:15:42] [Async Chat Thread - #7/INFO]: <CookedPork64_> wsp yall[m
+
+[18:15:47] [Async Chat Thread - #7/INFO]: <CookedPork64_> hey pi[m
+
+[18:15:48] [Async Chat Thread - #7/INFO]: <CookedPork64_> g[m
+
+[18:15:54] [Async Chat Thread - #7/INFO]: <CookedPork64_> there a bitch-i mean a witch in my spawner[m
+
+[18:15:55] [Async Chat Thread - #7/INFO]: <CookedPork64_> wut[m
+
+[18:16:00] [Async Chat Thread - #7/INFO]: <CookedPork64_> CHICKEN JOCKEY[m
+
+[18:16:01] [Async Chat Thread - #7/INFO]: <CookedPork64_> OH YEA[m
+
+[18:16:07] [Async Chat Thread - #7/INFO]: <CookedPork64_> how long were u here pig?[m
+
+[18:16:16] [Async Chat Thread - #7/INFO]: <meepcat2022> lol[m
+
+[18:16:16] [Async Chat Thread - #7/INFO]: <CookedPork64_> careful[m
+
+[18:16:18] [Async Chat Thread - #7/INFO]: <Pigpigman> not too long[m
+
+[18:16:24] [Async Chat Thread - #7/INFO]: <CookedPork64_> i can tell[m
+
+[18:16:32] [Async Chat Thread - #7/INFO]: <CookedPork64_> cause of the army of zombies in my spawner[m
+
+[18:16:39] [Async Chat Thread - #7/INFO]: <CookedPork64_> ill save u mr chicken[m
+
+[18:17:03] [Async Chat Thread - #7/INFO]: <Pigpigman> 637 11 -105[m
+
+[18:17:07] [Async Chat Thread - #7/INFO]: <CookedPork64_> BRUH[m
+
+[18:17:08] [Async Chat Thread - #7/INFO]: <CookedPork64_> WHY[m
+
+[18:17:09] [Async Chat Thread - #7/INFO]: <Pigpigman> 633 11 -110[m
+
+[18:17:13] [Async Chat Thread - #7/INFO]: <CookedPork64_> STIO LEAKING[m
+
+[18:17:15] [Async Chat Thread - #7/INFO]: <CookedPork64_> L SERVER[m
+
+[18:17:18] [Async Chat Thread - #7/INFO]: <meepcat2022> i need more books[m
+
+[18:17:27] [Server thread/INFO]: Pigpigman issued server command: /fill 633 11 -110 637 11 -105 tnt
+[18:17:27] [Server thread/INFO]: [Pigpigman: 30 blocks filled]
+[18:17:27] [Async Chat Thread - #7/INFO]: <CookedPork64_> i swear imma go onto name.com and rate this a -69 stars[m
+
+[18:17:30] [Async Chat Thread - #7/INFO]: <CookedPork64_> lol[m
+
+[18:17:31] [Async Chat Thread - #7/INFO]: <Pigpigman> bro[m
+
+[18:17:34] [Async Chat Thread - #7/INFO]: <Pigpigman> I aint leaking[m
+
+[18:17:36] [Async Chat Thread - #7/INFO]: <Pigpigman> hh[m
+
+[18:17:36] [Server thread/INFO]: Pigpigman issued server command: /h
+[18:17:37] [Server thread/INFO]: Pigpigman issued server command: /h
+[18:17:38] [Server thread/INFO]: Pigpigman issued server command: /h
+[18:17:38] [Async Chat Thread - #7/INFO]: <CookedPork64_> cap[m
+
+[18:17:39] [Async Chat Thread - #7/INFO]: <Pigpigman> h[m
+
+[18:17:40] [Async Chat Thread - #7/INFO]: <CookedPork64_> NO[m
+
+[18:17:40] [Async Chat Thread - #8/INFO]: <Pigpigman> h[m
+
+[18:17:41] [Async Chat Thread - #8/INFO]: <Pigpigman> h[m
+
+[18:17:42] [Async Chat Thread - #8/INFO]: <CookedPork64_> ADA<[m
+
+[18:17:42] [Async Chat Thread - #8/INFO]: <Pigpigman> h[m
+
+[18:17:43] [Async Chat Thread - #8/INFO]: <CookedPork64_> <[m
+
+[18:17:44] [Async Chat Thread - #8/INFO]: <Pigpigman> h[m
+
+[18:17:45] [Async Chat Thread - #8/INFO]: <CookedPork64_> THE CHICKEN[m
+
+[18:17:47] [Async Chat Thread - #8/INFO]: <Pigpigman> get rid of it[m
+
+[18:17:47] [Async Chat Thread - #8/INFO]: <CookedPork64_> NOOOOO[m
+
+[18:17:52] [Async Chat Thread - #8/INFO]: <Pigpigman> I got rid of the text that said that[m
+
+[18:17:58] [Async Chat Thread - #8/INFO]: <Pigpigman> go to the end of the hallway[m
+
+[18:18:00] [Async Chat Thread - #8/INFO]: <CookedPork64_> the chicken adam[m
+
+[18:18:01] [Async Chat Thread - #8/INFO]: <CookedPork64_> bruh[m
+
+[18:18:15] [Async Chat Thread - #8/INFO]: <meepcat2022> what[m
+
+[18:18:23] [Async Chat Thread - #8/INFO]: <CookedPork64_> flint n steel[m
+
+[18:18:24] [Async Chat Thread - #8/INFO]: <CookedPork64_> huh[m
+
+[18:18:28] [Async Chat Thread - #8/INFO]: <meepcat2022> dont hav[m
+
+[18:18:29] [Async Chat Thread - #8/INFO]: <CookedPork64_> portal?[m
+
+[18:18:37] [Async Chat Thread - #8/INFO]: <CookedPork64_> n o[m
+
+[18:18:42] [Async Chat Thread - #8/INFO]: <CookedPork64_> stawp[m
+
+[18:18:46] [Async Chat Thread - #8/INFO]: <CookedPork64_> bad[m
+
+[18:18:46] [Async Chat Thread - #8/INFO]: <CookedPork64_> tnt[m
+
+[18:18:55] [Async Chat Thread - #8/INFO]: <CookedPork64_> i wwill fill ur invv with rotten flesh[m
+
+[18:19:05] [Async Chat Thread - #8/INFO]: <CookedPork64_> what iron golem died here[m
+
+[18:19:36] [Async Chat Thread - #8/INFO]: <CookedPork64_> wigh flint and steel[m
+
+[18:19:43] [Async Chat Thread - #8/INFO]: <CookedPork64_> stop bro[m
+
+[18:20:03] [Async Chat Thread - #8/INFO]: <Pigpigman> cheese[m
+
+[18:20:07] [Async Chat Thread - #8/INFO]: <CookedPork64_> chesed[m
+
+[18:20:57] [Async Chat Thread - #8/INFO]: <meepcat2022> i have books cooked[m
+
+[18:21:03] [Async Chat Thread - #8/INFO]: <CookedPork64_> can u turn on hard mode rq pig[m
+
+[18:21:06] [Async Chat Thread - #8/INFO]: <meepcat2022> plz[m
+
+[18:21:06] [Async Chat Thread - #8/INFO]: <CookedPork64_> only 5 mins[m
+
+[18:21:09] [Async Chat Thread - #8/INFO]: <meepcat2022> hard mode plz[m
+
+[18:21:14] [Async Chat Thread - #8/INFO]: <CookedPork64_> 5 mins only[m
+
+[18:21:23] [Async Chat Thread - #8/INFO]: <CookedPork64_> GOD DAMN ADAM[m
+
+[18:21:24] [Async Chat Thread - #8/INFO]: <CookedPork64_> DANG[m
+
+[18:21:32] [Async Chat Thread - #8/INFO]: <meepcat2022> yes[m
+
+[18:21:33] [Async Chat Thread - #8/INFO]: <CookedPork64_> WHAT IN THE ENCHANTED ICE CREAM SANDWHICHES[m
+
+[18:21:37] [Async Chat Thread - #8/INFO]: <meepcat2022> gove me the books[m
+
+[18:21:40] [Async Chat Thread - #8/INFO]: <meepcat2022> et out[m
+
+[18:21:46] [Async Chat Thread - #8/INFO]: <CookedPork64_> team books adam[m
+
+[18:22:00] [Async Chat Thread - #8/INFO]: <CookedPork64_> chill[m
+
+[18:22:01] [Async Chat Thread - #8/INFO]: <CookedPork64_> team books[m
+
+[18:22:06] [Async Chat Thread - #8/INFO]: <CookedPork64_> *ice cream sandwhiches[m
+
+[18:22:22] [Async Chat Thread - #8/INFO]: <CookedPork64_> dang[m
+
+[18:22:29] [Async Chat Thread - #8/INFO]: <CookedPork64_> try triple stackign the books[m
+
+[18:22:54] [Async Chat Thread - #8/INFO]: <meepcat2022> give my prot 4 book[m
+
+[18:22:54] [Async Chat Thread - #8/INFO]: <CookedPork64_> bang bang clang[m
+
+[18:23:00] [Async Chat Thread - #8/INFO]: <CookedPork64_> i dont have it[m
+
+[18:23:03] [Async Chat Thread - #8/INFO]: <CookedPork64_> prot 4?[m
+
+[18:23:04] [Async Chat Thread - #8/INFO]: <CookedPork64_> wher[m
+
+[18:23:12] [Async Chat Thread - #8/INFO]: <CookedPork64_> u mean feather 4?[m
+
+[18:23:17] [Async Chat Thread - #8/INFO]: <CookedPork64_> caues its there[m
+
+[18:23:28] [Async Chat Thread - #8/INFO]: <CookedPork64_> feather 4 there[m
+
+[18:23:30] [Async Chat Thread - #8/INFO]: <CookedPork64_> which enchant[m
+
+[18:23:33] [Async Chat Thread - #8/INFO]: <CookedPork64_> which level[m
+
+[18:23:33] [Async Chat Thread - #8/INFO]: <CookedPork64_> aug[m
+
+[18:23:37] [Async Chat Thread - #8/INFO]: <CookedPork64_> *visible confusion*[m
+
+[18:23:49] [Async Chat Thread - #8/INFO]: <CookedPork64_> u got the lapis?[m
+
+[18:24:05] [Async Chat Thread - #8/INFO]: <CookedPork64_> hm[m
+
+[18:24:07] [Async Chat Thread - #8/INFO]: <CookedPork64_> we broke again[m
+
+[18:24:12] [Async Chat Thread - #8/INFO]: <CookedPork64_> sigh[m
+
+[18:24:30] [Async Chat Thread - #8/INFO]: <CookedPork64_> ms calamito bye[m
+
+[18:24:32] [Server thread/INFO]: CookedPork64_ lost connection: Disconnected
+[18:24:32] [Server thread/INFO]: CookedPork64_ left the game.
+[18:25:04] [Async Chat Thread - #8/INFO]: <meepcat2022> oh hey[m
+
+[18:25:12] [Async Chat Thread - #8/INFO]: <meepcat2022> wy[m
+
+[18:25:20] [Async Chat Thread - #8/INFO]: <meepcat2022> wtf[m
+
+[18:25:52] [Async Chat Thread - #8/INFO]: <meepcat2022> pig[m
+
+[18:25:55] [Async Chat Thread - #8/INFO]: <meepcat2022> do u want ur anvils[m
+
+[18:25:55] [Async Chat Thread - #8/INFO]: <Pigpigman> yes?[m
+
+[18:25:59] [Async Chat Thread - #8/INFO]: <Pigpigman> yes[m
+
+[18:26:17] [Async Chat Thread - #8/INFO]: <Pigpigman> ima blow out a massive area for ya[m
+
+[18:26:20] [Async Chat Thread - #8/INFO]: <meepcat2022> why[m
+
+[18:26:43] [Async Chat Thread - #8/INFO]: <meepcat2022> can u respawn ender dragon soon for more xp?[m
+
+[18:26:44] [Async Chat Thread - #8/INFO]: <meepcat2022> thx[m
+
+[18:27:03] [Async Chat Thread - #8/INFO]: <meepcat2022> pig[m
+
+[18:27:09] [Async Chat Thread - #8/INFO]: <meepcat2022> please after this respawn ender dragon[m
+
+[18:27:20] [Async Chat Thread - #8/INFO]: <Pigpigman> maybe[m
+
+[18:27:22] [Async Chat Thread - #8/INFO]: <meepcat2022> thanks[m
+
+[18:27:25] [Async Chat Thread - #8/INFO]: <meepcat2022> i need more sp[m
+
+[18:30:23] [Async Chat Thread - #9/INFO]: <meepcat2022> pigpigman[m
+
+[18:30:33] [Async Chat Thread - #9/INFO]: <meepcat2022> can u keep the server onlike for a few more mins like maybe 5[m
+
+[18:30:38] [Async Chat Thread - #9/INFO]: <meepcat2022> im going to make a enderman farm[m
+
+[18:31:03] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
+[18:31:03] [Server thread/INFO]: meepcat2022 left the game.
+[18:32:22] [Thread-38/INFO]: UUID of player meepcat2022 is e200334b-2e9e-3a05-8356-962a7d8be617
+[18:32:22] [Server thread/INFO]: meepcat2022[/[0:0:0:0:0:0:0:1]:55052] logged in with entity id 16499 at ([world]636.3512406855382, 13.0, -238.576880433981)
+[18:33:31] [Server thread/INFO]: Pigpigman issued server command: /set
+[18:33:33] [Server thread/INFO]: Pigpigman issued server command: /position
+[18:33:35] [Server thread/INFO]: Pigpigman issued server command: /pos
+[18:34:43] [Server thread/INFO]: Pigpigman issued server command: //set glass
+[18:35:01] [Server thread/INFO]: Pigpigman issued server command: //set
+[18:35:39] [Server thread/INFO]: Pigpigman issued server command: //set glass
+[18:36:04] [Async Chat Thread - #10/INFO]: <Pigpigman> follow me[m
+
+[18:36:06] [Async Chat Thread - #10/INFO]: <Pigpigman> baby boo[m
+
+[18:36:10] [Async Chat Thread - #10/INFO]: <meepcat2022> i swear[m
+
+[18:36:13] [Async Chat Thread - #10/INFO]: <meepcat2022> i need so much godam xp[m
+
+[18:36:21] [Async Chat Thread - #10/INFO]: <meepcat2022> thats why i need respawn ender dragon[m
+
+[18:36:33] [Async Chat Thread - #10/INFO]: <Pigpigman> break the glass[m
+
+[18:36:45] [Async Chat Thread - #10/INFO]: <Pigpigman> oh[m
+
+[18:36:47] [Async Chat Thread - #10/INFO]: <Pigpigman> more glass[m
+
+[18:36:48] [Async Chat Thread - #10/INFO]: <Pigpigman> hmm[m
+
+[18:36:51] [Async Chat Thread - #10/INFO]: <Pigpigman> more?[m
+
+[18:37:16] [Async Chat Thread - #10/INFO]: <meepcat2022> srry[m
+
+[18:37:23] [Async Chat Thread - #10/INFO]: <meepcat2022> where should i break?[m
+
+[18:37:36] [Async Chat Thread - #10/INFO]: <Pigpigman> you got this place set as a home?[m
+
+[18:37:39] [Async Chat Thread - #10/INFO]: <meepcat2022> no[m
+
+[18:37:41] [Async Chat Thread - #10/INFO]: <Pigpigman> ok[m
+
+[18:37:45] [Async Chat Thread - #10/INFO]: <meepcat2022> cant get back if u kill me[m
+
+[18:37:51] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman 585 75 -245
+[18:37:51] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to 585.5, 75.0, -244.5]
+[18:38:09] [Server thread/INFO]: Pigpigman issued server command: //set glass
+[18:38:23] [Async Chat Thread - #10/INFO]: <meepcat2022> pigpigman[m
+
+[18:38:25] [Async Chat Thread - #10/INFO]: <meepcat2022> where r u[m
+
+[18:38:32] [Async Chat Thread - #10/INFO]: <Pigpigman> set it as a home[m
+
+[18:38:39] [Async Chat Thread - #10/INFO]: <meepcat2022> where[m
+
+[18:39:37] [Async Chat Thread - #10/INFO]: <meepcat2022> pigpigman where should i set[m
+
+[18:39:45] [Async Chat Thread - #10/INFO]: <Pigpigman> at your base[m
+
+[18:39:46] [Async Chat Thread - #10/INFO]: <Pigpigman> idk[m
+
+[18:39:50] [Async Chat Thread - #10/INFO]: <meepcat2022> idk[m
+
+[18:39:57] [Async Chat Thread - #10/INFO]: <meepcat2022> but then i cant get back here[m
+
+[18:39:58] [Async Chat Thread - #10/INFO]: <meepcat2022> if i do[m
+
+[18:40:02] [Async Chat Thread - #10/INFO]: <Pigpigman> oh[m
+
+[18:40:03] [Async Chat Thread - #10/INFO]: <Pigpigman> ok[m
+
+[18:41:07] [Async Chat Thread - #11/INFO]: <meepcat2022> pigpigman[m
+
+[18:41:11] [Async Chat Thread - #11/INFO]: <Pigpigman> yes?[m
+
+[18:41:12] [Async Chat Thread - #11/INFO]: <meepcat2022> can i have an endermite spawn eg[m
+
+[18:41:13] [Async Chat Thread - #11/INFO]: <meepcat2022> g[m
+
+[18:41:25] [Async Chat Thread - #11/INFO]: <meepcat2022> when cookeds online, were going to make a enderman farm[m
+
+[18:41:32] [Async Chat Thread - #11/INFO]: <Pigpigman> ok[m
+
+[18:42:03] [Async Chat Thread - #11/INFO]: <meepcat2022> so are you going to give spawn egg or not?[m
+
+[18:42:19] [Async Chat Thread - #11/INFO]: <Pigpigman> gegagidegadagodago[m
+
+[18:42:24] [Async Chat Thread - #11/INFO]: <meepcat2022> wut[m
+
+[18:42:26] [Server thread/INFO]: Pigpigman issued server command: /tp Pigpigman meepcat2022
+[18:42:26] [Server thread/INFO]: [Pigpigman: Teleported Pigpigman to meepcat2022]
+[18:42:34] [Async Chat Thread - #11/INFO]: <Pigpigman> um[m
+
+[18:42:37] [Async Chat Thread - #11/INFO]: <meepcat2022> ye[m
+
+[18:42:37] [Async Chat Thread - #11/INFO]: <Pigpigman> that would be cheating[m
+
+[18:42:49] [Async Chat Thread - #11/INFO]: <meepcat2022> ok[m
+
+[18:43:01] [Async Chat Thread - #11/INFO]: <meepcat2022> then i will spawn one by myslef[m
+
+[18:43:38] [Async Chat Thread - #11/INFO]: <meepcat2022> pig[m
+
+[18:43:43] [Async Chat Thread - #11/INFO]: <Pigpigman> yes?[m
+
+[18:43:43] [Async Chat Thread - #11/INFO]: <meepcat2022> can we spawn wither in this version[m
+
+[18:43:46] [Async Chat Thread - #11/INFO]: <Pigpigman> yes[m
+
+[18:43:55] [Async Chat Thread - #11/INFO]: <meepcat2022> yey thx[m
+
+[18:44:07] [Server thread/INFO]: Pigpigman lost connection: Disconnected
+[18:44:07] [Server thread/INFO]: Pigpigman left the game.
+[18:44:41] [Server thread/INFO]: meepcat2022 lost connection: Disconnected
+[18:44:41] [Server thread/INFO]: meepcat2022 left the game.
