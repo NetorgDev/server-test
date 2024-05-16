@@ -134,5 +134,13 @@
     "source": "pinkypromiseop",
     "expires": "forever",
     "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "f30774d2-1fa8-3ed5-912a-cf9233f1f702",
+    "name": "ponyboy_curry",
+    "created": "2024-05-16 15:41:03 +0000",
+    "source": "Pigpigman",
+    "expires": "forever",
+    "reason": "Banned by an operator."
   }
 ]
