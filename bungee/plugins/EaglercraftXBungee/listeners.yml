@@ -10,7 +10,8 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6Survival, &2Anarchy, &band &4More! &9(Season 1)'
+  - '&dPigZ &5is a &1zombie &6apocalypse &amultiplayer &csurvival server
+&9Designed with a city!'
   allow_motd: true
   allow_query: true
   request_motd_cache:
